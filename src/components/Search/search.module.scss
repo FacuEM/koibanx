@@ -1,0 +1,34 @@
+.form {
+  width: 50%;
+  display: flex;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top: 15%;
+  overflow: hidden;
+  .select {
+    outline: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    padding-left: 5px;
+  }
+  .input {
+    width: 90%;
+    border: 0;
+    height: 46px;
+    padding: 0 25px;
+    outline: 0;
+    font-size: 16px;
+  }
+  .button {
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 46px;
+    padding: 10px;
+    margin-left: 5px;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+  }
+}
